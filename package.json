@@ -180,5 +180,5 @@
     "test": "npm run lint && jest"
   },
   "style": "lib/css/react-big-calendar.css",
-  "version": "0.28.6"
+  "version": "0.28.7"
 }
