@@ -1455,8 +1455,8 @@
   }
 
   var navigate = {
-    PREVIOUS: 'PREV',
-    NEXT: 'NEXT',
+    PREVIOUS: '',
+    NEXT: '',
     TODAY: 'TODAY',
     DATE: 'DATE'
   };
@@ -1465,7 +1465,8 @@
     WEEK: 'week',
     WORK_WEEK: 'work_week',
     DAY: 'day',
-    AGENDA: 'agenda'
+    AGENDA: 'agenda',
+    TWO_WEEKS: 'BiWeekView'
   };
 
   var viewNames = Object.keys(views).map(function (k) {
@@ -1559,8 +1560,8 @@
     work_week: 'Work Week',
     day: 'Day',
     month: 'Month',
-    previous: 'Back',
-    next: 'Next',
+    previous: '',
+    next: '',
     yesterday: 'Yesterday',
     tomorrow: 'Tomorrow',
     today: 'Today',
